@@ -111,3 +111,38 @@
   border-radius: 50%;
   margin-right: 5px;
 }
+/* Blog */
+.blog-description {
+  border-top: 2px solid #ccc;
+  max-height: 45vh;
+  overflow-y: auto;
+}
+.blog-account {
+  float: left;
+}
+.blog-account h5 {
+  float: left !important;
+  margin: 20px;
+  margin-bottom: 3px !important;
+}
+.blog-account p {
+  justify-content: center;
+  display: block;
+  float: left;
+  margin: 20px;
+  margin-top: 3px !important;
+}
+
+.box1 {
+  float: left;
+  margin: 0 50px;
+}
+.box2 {
+  float: right;
+
+  margin: 0 50px;
+  margin-top: 20px;
+}
+.box2 small {
+  float: right;
+}

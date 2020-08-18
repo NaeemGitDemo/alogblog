@@ -27,7 +27,7 @@ class FeaturedPosts extends React.Component {
                         <Card>
                             <CardImg className='custom-card-image' top width="100%" src={blog1} alt="Card image cap" />
                             <CardBody>
-                                <CardTitle ><Link className='post-title'><h4>Man On The Mars</h4></Link></CardTitle>
+                                <CardTitle ><Link to='/blogpost/1234'className='post-title'><h4>Man On The Mars</h4></Link></CardTitle>
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                                 <CardText>
                                     <div className='card-bottom'>
