@@ -1,0 +1,113 @@
+/* Header */
+.prime-color {
+  color: #fd7e14;
+}
+
+.logo {
+  font-weight: bold;
+}
+.logo-img {
+  width: 25px !important;
+  margin: 5px;
+}
+/* Button */
+.btn-prime {
+  background-color: #fd7e14 !important;
+  color: #fff;
+}
+
+.btn-outline-prime {
+  border: 1px solid #fd7e14 !important;
+  color: #fd7e14 !important;
+}
+.btn-outline-prime:hover {
+  cursor: pointer;
+  background-color: #fd7e14;
+  color: #fff !important;
+}
+/* Showcase */
+.showcase-full {
+  background: url("../images/showcase.jpeg") no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+.showcase {
+  /* background-image: url('../images/showcase.jpeg') no-repeat center center/cover; */
+  background: url("../images/showcase.jpeg") no-repeat center center/cover;
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  object-fit: cover;
+}
+.showcase-content {
+  /* background-image: url('../images/showcase.jpeg'); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+.showcase h1 {
+  color: #fd7e14;
+}
+/* Sub headers */
+.sub-header {
+  float: left;
+  font-weight: bold;
+  margin: 25px 18px;
+  margin-bottom: 0px;
+}
+/* Navbar */
+.navbar li:hover,
+.user-name:hover {
+  border-bottom: 2px solid #fd7e14 !important;
+}
+
+/* Card Image */
+.custom-card-image {
+  max-height: 196px;
+}
+/* Card Footer */
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  background-position: center center/cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+/* Card Title */
+.card-custom-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #fd7e14 !important;
+  margin-bottom: 15px !important;
+}
+.post-title {
+  color: #000;
+  text-decoration: none;
+}
+.post-title:hover {
+  color: #fd7e14;
+  text-decoration: none;
+}
+/* UserName */
+.user-name {
+  text-decoration: none !important;
+  margin: 0px 15px;
+  color: black;
+}
+
+.user-avatar {
+  background-position: center center/cover;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
